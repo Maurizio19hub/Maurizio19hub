@@ -16,7 +16,7 @@ Thesis project. A PPO agent that controls the traffic lights of an urban interse
 `Python` `Stable-Baselines3` `Gymnasium` `SUMO / TraCI` `Pandas`
 
 ### 🛰️ [satSim](https://github.com/Maurizio19hub/satSim)
-Physics simulator for the attitude dynamics of a 3U CubeSat controlled by reaction wheels. It includes a custom RK4 integrator, quaternion-based attitude, environmental disturbances (gravity gradient, solar radiation pressure, residual magnetic torque), a real-time 3D visualization with live telemetry, and a Gymnasium environment to train PPO/SAC agents against a PD baseline controller. Validated with tests on angular momentum and energy conservation.
+Physics simulator for the attitude dynamics of a 3U CubeSat controlled by reaction wheels. It includes a custom RK4 integrator, quaternion-based attitude, environmental disturbances (gravity gradient, solar radiation pressure, residual magnetic torque), a real-time 3D visualization with live telemetry, and a Gymnasium environment to train PPO agents against a PD baseline controller. Validated with tests on angular momentum and energy conservation.
 `Python` `NumPy` `PySide6` `PyOpenGL` `Stable-Baselines3` `Gymnasium`
 
 ### 🫀 [ECG_ML](https://github.com/Maurizio19hub/ECG_ML)
