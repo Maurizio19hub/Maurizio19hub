@@ -1,7 +1,7 @@
 # Hi, I'm Maurizio 👋
 
 MSc student in **Computer Engineering** (curriculum: *Intelligent Data Engineering and Algorithms*) at the **University of Padua (Unipd)**, focused on machine learning and AI.
-I enjoy building models from the ground up and testing them on real-world problems, from traffic control to biomedical signals.
+I enjoy building models from the ground up and testing them on real-world problems, from traffic control and satellite attitude to biomedical signals.
 
 ## What I work on
 
@@ -15,6 +15,10 @@ I enjoy building models from the ground up and testing them on real-world proble
 Thesis project. A PPO agent that controls the traffic lights of an urban intersection simulated in SUMO, trained to reduce waiting times, queues and emissions. Traffic flows are calibrated on real TomTom data, and results are compared with fixed-phase baselines over 20 random seeds.
 `Python` `Stable-Baselines3` `Gymnasium` `SUMO / TraCI` `Pandas`
 
+### 🛰️ [satSim](https://github.com/Maurizio19hub/satSim)
+Physics simulator for the attitude dynamics of a 3U CubeSat controlled by reaction wheels. It includes a custom RK4 integrator, quaternion-based attitude, environmental disturbances (gravity gradient, solar radiation pressure, residual magnetic torque), a real-time 3D visualization with live telemetry, and a Gymnasium environment to train PPO/SAC agents against a PD baseline controller. Validated with tests on angular momentum and energy conservation.
+`Python` `NumPy` `PySide6` `PyOpenGL` `Stable-Baselines3` `Gymnasium`
+
 ### 🫀 [ECG_ML](https://github.com/Maurizio19hub/ECG_ML)
 Unsupervised clustering of ECG heartbeats (ECG5000) to see whether cardiac pathology groups can be rediscovered from signal shape alone. Compares K-Means, K-Means with DTW/DBA and Kernel K-Means (GAK), with an interactive Streamlit dashboard.
 `Python` `tslearn` `scikit-learn` `Streamlit` `Jupyter`
@@ -26,6 +30,8 @@ A neural network for MNIST digit recognition written in pure NumPy: backpropagat
 ## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
